@@ -11,7 +11,6 @@
   inputs.src-dumpincludes-master.ref   = "refs/heads/master";
   inputs.src-dumpincludes-master.owner = "treeform";
   inputs.src-dumpincludes-master.repo  = "dumpincludes";
-  inputs.src-dumpincludes-master.dir   = "";
   inputs.src-dumpincludes-master.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
