@@ -3,20 +3,22 @@
     "cligen": {
       "inputs": {
         "flakeNimbleLib": [
+          "dumpincludes-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "dumpincludes-master",
           "nixpkgs"
         ],
         "src-cligen-v1_5_23": "src-cligen-v1_5_23"
       },
       "locked": {
         "dir": "v1_5_23",
-        "lastModified": 1651917786,
-        "narHash": "sha256-iuuvLka4OYQfxEGWAvXG95W2qO8754zCHAVlmF/R92A=",
+        "lastModified": 1651609682,
+        "narHash": "sha256-XK66Xbvp2yNwjxuJ6pCEhE7CvTchqYMEAKHwd9gR7L4=",
         "owner": "nim-nix-pkgs",
         "repo": "cligen",
-        "rev": "7f43944b33da6bedef706460e55d07a282854090",
+        "rev": "d1db6bc462c146fb7a72cd1965da6f8fa05c3965",
         "type": "github"
       },
       "original": {
@@ -24,6 +26,34 @@
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "cligen",
+        "type": "github"
+      }
+    },
+    "dumpincludes-master": {
+      "inputs": {
+        "cligen": "cligen",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-dumpincludes-master": "src-dumpincludes-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651609991,
+        "narHash": "sha256-Ubl09fBsKXA2rVOlBcidc0R3lmprxjAhEjEtPQQbXzI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "dumpincludes",
+        "rev": "6f0897bcf393d65bb2c7ee5c596b4d43c7229475",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "dumpincludes",
         "type": "github"
       }
     },
@@ -61,10 +91,9 @@
     },
     "root": {
       "inputs": {
-        "cligen": "cligen",
+        "dumpincludes-master": "dumpincludes-master",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-dumpincludes-master": "src-dumpincludes-master"
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-cligen-v1_5_23": {
